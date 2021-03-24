@@ -5,4 +5,4 @@ import platform
 
 version = platform.python_version()
 
-print('This is python version {}'.format(version))
+print('This is python version {}'.format(version)) ; print('hello') #ninguem usa isso, mas pode ser usado 

@@ -8,5 +8,11 @@ def main():
 
 def message():
     print('This is python version {}'.format(platform.python_version()))
+    print('lalala')
+    print("ola estou fora do bloco")
+    if False:
+        print('linha 3')
+    else:
+        print('falso')
 
 if __name__ == '__main__': main()
