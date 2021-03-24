@@ -46,3 +46,12 @@ m=Decimal('.30')
 f = n+n+n-m
 print('f is {}'.format(f))
 print(type(f))
+
+t = True
+print('t is {}'.format(t))
+print(type(t))
+
+c = 5<3
+print('c is {}'.format(c))
+print(type(c))
+
