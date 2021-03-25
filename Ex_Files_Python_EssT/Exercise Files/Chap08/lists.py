@@ -8,7 +8,7 @@ def main():
     #game.append("João")
     #game.insert(0, "Corea")
     print(', '.join(game)) # coloca uma virgula entre os elementos da lista
-    print(len(game))
+    print(len(game)) # mostra o tamanho da lista
     print_list(game)
 
 def print_list(o):

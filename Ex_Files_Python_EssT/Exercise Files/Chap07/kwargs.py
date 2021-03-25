@@ -4,7 +4,7 @@
 def main():
     kitten(Buffy = 'meow', Zilla = 'grr', Angel = 'rawr')
 
-def kitten(**kwargs):
+def kitten(**kwargs): #kwarg keywordarguments para dicionarios
     if len(kwargs):
         for k in kwargs:
             print('Kitten {} says {}'.format(k, kwargs[k]))

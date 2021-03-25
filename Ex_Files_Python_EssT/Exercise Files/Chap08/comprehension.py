@@ -9,7 +9,7 @@ def main():
     #seq2 = [(x, x**2) for x in seq] #transforma em tuplas de duplo elemento dele mesmo
     #seq2 = [round(pi, i) for i in seq] # pi arredondado pelo numero numero de lugares de cada elemento na sequencia
     #seq2 = { x: x**2 for x in seq } # criação do dicionario obs. mudar o print_list para print para funcionar.
-    seq2 = { x for x in 'superduper' if x not in 'pd'}
+    seq2 = { x for x in 'superduper' if x not in 'pd'} # cria um set e mostra as letras 
 
     
     print_list(seq)
