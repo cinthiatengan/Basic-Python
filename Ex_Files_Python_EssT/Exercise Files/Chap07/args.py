@@ -4,8 +4,8 @@
 def main():
     kitten('meow', 'grrr', 'purr')
 
-def kitten(*args):
-    if len(args):
+def kitten(*args): # o * puxa todo conteudo da tupla
+    if len(args): #checa o comprimento da tupla
         for s in args:
             print(s)
     else: print('Meow.')
