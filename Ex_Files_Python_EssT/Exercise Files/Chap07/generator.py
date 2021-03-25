@@ -25,7 +25,7 @@ def inclusive_range(*args):
     # generator
     i = start
     while i <= stop:
-        yield i
+        yield i # return do generator
         i += step
 
 if __name__ == '__main__': main()
