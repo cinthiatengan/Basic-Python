@@ -20,3 +20,7 @@ print(x)
 print(y)
 print(z)
 print(a)
+
+b = ('Correa', 'Joao', 'Chris', 'Brunao', 'Leo')
+for i, v in enumerate(b): print(f'{i}: {v}')
+    
