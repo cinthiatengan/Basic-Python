@@ -23,3 +23,14 @@ class MyString(str):
 
 s= MyString('GENOCIDA BASCULHO')
 print(s)
+
+x = 42
+y=73
+print("the number is {} {}".format(x, y))
+print("the number is {xx} {bb}".format(xx=x, bb=y))
+print("the number is {1} {0}".format(x, y)) #posicao
+print("the number is {0:<05} {1:>05}".format(x, y))
+a=43*66*22*10000
+print("the number is {:,}".format(a))
+print("the number is {:.3f}".format(a))
+print("the number is {:f}".format(a)) 
