@@ -7,7 +7,8 @@ print('Hello, World. {}'.format(3*2))
 
 print("""
       HELL IS
-      HERE.
+      HERE AND
+      WE ARE ALL DOOMED.
       
       {}
       
