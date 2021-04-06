@@ -14,7 +14,7 @@ class bwDB:
         """
             db = bwDB( [ table = ''] [, filename = ''] )
             constructor method
-                table is for CRUD methods 
+                table is for CRUD methods
                 filename is for connecting to the database file
         """
         # see filename @property decorators below
