@@ -5,7 +5,7 @@
 import time
 from datetime import datetime as dt
 
-hosts_path = r('/etc/hosts') # is for raw string
+hosts_path = r'/etc/hosts' # is for raw string
 hosts_temp = 'hosts'
 redirect = "127.0.0.1"
 web_sites_list = ["www.facebook.com", "facebook.com"] #user can modify the list of the websites they want to block
@@ -25,7 +25,10 @@ while True:
         with open(hosts_path, "r+") as file:
             content = file.readlines()
             file.seek(0) #reset the pointer to the top of the text file
-            for line in content:
-                
+            for line in content: #here comes the tricky line, basically we overwrite the whole file
+                if not any(website in line for website in web_sites_list):
+                    file.write(line)
+            file.truncate() #this line is used to delete the trailing lines(that contains dns)
+    time.sleep(5)
             
             
