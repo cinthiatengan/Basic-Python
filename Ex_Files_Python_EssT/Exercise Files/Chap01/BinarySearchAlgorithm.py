@@ -31,7 +31,13 @@ def binary_search_recursive(a_list, item):
         return 'was not found in the list '.format(item=item)
     else:
         i = (first + last)//2
-        if item == a_list[i]
+        if item == a_list[i]:
+            return ' found'.format(item=item)
+        else:
+            if a_list[i] < item:
+                return binary_search_recursive(a_list[i+1:], item)
+            else:
+                return binary_search_recursive(a_list[:1], item)
     
 
             
