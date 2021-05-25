@@ -1,6 +1,7 @@
 # 
 # Example file for parsing and processing XML
 #
+
 import xml.dom.minidom
 
 def main():
